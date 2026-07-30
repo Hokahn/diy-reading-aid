@@ -87,6 +87,15 @@ Write the image, insert the SD card into the Pi, and power it up.
 
 ### 2. First boot and update
 
+Log into your Pi via PowerShell:
+
+```bash
+ssh lesehilfe@lesehilfe.local
+
+```
+
+After logging in, update using these commands:
+
 ```bash
 ssh lesehilfe@lesehilfe.local
 sudo apt update
